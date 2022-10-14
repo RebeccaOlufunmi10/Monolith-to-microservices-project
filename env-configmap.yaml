@@ -4,9 +4,9 @@ metadata:
   name: env-configmap
 data:
   POSTGRES_DB: postgres
-  POSTGRES_HOST: olufunmilayosmiless.c4rvozmpaxat.us-east-1.rds.amazonaws.com
+  POSTGRES_HOST: olufunmilayosmiles1.c4rvozmpaxat.us-east-1.rds.amazonaws.com
   AWS_REGION: us-east-1
   AWS_PROFILE: default
-  AWS_BUCKET: arn:aws:s3:::olufunmilayosmiless
+  AWS_BUCKET: arn:aws:s3:::olufunmilayosmiles1
   JWT_SECRET: testing
-  URL: http://localhost:8100
+  URL: http://localhost:8100   

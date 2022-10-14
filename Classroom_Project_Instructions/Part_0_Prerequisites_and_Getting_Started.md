@@ -168,9 +168,9 @@ We will create a PostgreSQL database using AWS RDS. This is used by the project 
 
 ### Verify Connection
 Test the connection from your local PostgreSQL client.
-Assuming the endpoint is: `olufunmilayosmiless.c4rvozmpaxat.us-east-1.rds.amazonaws.com`, you can run:
+Assuming the endpoint is: `olufunmilayosmiles1.c4rvozmpaxat.us-east-1.rds.amazonaws.com`, you can run:
 ```bash  
-psql -h olufunmilayosmiless.c4rvozmpaxat.us-east-1.rds.amazonaws.com -U postgres postgres
+psql -h olufunmilayosmiles1.c4rvozmpaxat.us-east-1.rds.amazonaws.com -U postgres postgres
 # Provide the database password when prompted
 ```
 If your connection is succesful, your terminal should print ` "postgres=>"`.
@@ -228,9 +228,9 @@ Below is an example. Make sure that you replace the values with ones that are ap
 ```bash
 setx POSTGRES_USERNAME postgres
 setx POSTGRES_PASSWORD password
-setx POSTGRES_HOST olufunmilayosmiless.c4rvozmpaxat.us-east-1.rds.amazonaws.com
+setx POSTGRES_HOST olufunmilayosmiles1.c4rvozmpaxat.us-east-1.rds.amazonaws.com
 setx POSTGRES_DB postgres
-setx AWS_BUCKET arn:aws:s3:::olufunmilayosmiless
+setx AWS_BUCKET arn:aws:s3:::olufunmilayosmiles1
 setx AWS_REGION us-east-1
 setx AWS_PROFILE nd9990
 setx JWT_SECRET hello
